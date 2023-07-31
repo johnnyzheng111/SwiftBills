@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #00c4cc , #056F88, #0a1a44);
+    color: white;
+}
+
+#big {
+    color: white;
+    text-align: center;
+    font-family: Trebuchet, sans-serif;
+    font-weight: 340;
+    font-size: 45px;
+}
+
+#underbig{
+    color: white;
+    text-align: center;
+    font-family: Trebuchet, sans-serif;
+    font-weight: 340;
+    margin-top: 20px;
+}
