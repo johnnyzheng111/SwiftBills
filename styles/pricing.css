@@ -8,7 +8,7 @@ body {
 #big {
     color: white;
     text-align: center;
-    font-family: Trebuchet, sans-serif;
+    font-family: 'Open Sauce One', sans-serif;
     font-weight: 340;
     font-size: 45px;
 }
@@ -16,16 +16,14 @@ body {
 #underbig{
     color: white;
     text-align: center;
-    font-family: Trebuchet, sans-serif;
+    font-family: 'Open Sauce One', sans-serif;
     font-weight: 340;
     margin-top: 20px;
 }
 
 .boxes{
     background-color: #00c4cc;
-    justify-content: center;
     color: white;
-    font-family: Trebuchet, sans-serif;
     border-radius: 25px;
     padding: 20px; 
     width: 360px;
@@ -33,6 +31,26 @@ body {
     display: inline-block;
     text-align: center;
     margin-top: 40px;
-    margin-left: 120px;
+    font-family: 'Open Sauce One', sans-serif;
+    box-shadow: 5px 10px 18px #056F88;
+}
+#center_box{
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;    
+}
 
+.boxes p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    font-family: 'Open Sauce One', sans-serif;
+    text-align: left;
+}
+
+#contact{
+    margin-top: 300px;
+    width: 2000px;
+    height: 500px;
+    background-color:#0a1a44;
 }
