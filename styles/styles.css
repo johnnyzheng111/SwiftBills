@@ -1,28 +1,42 @@
 /* Reset default list styles for <nav> and <a> elements */
 nav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  /* Style the links as buttons */
-  a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    border-radius: 4px;
-    margin: 5px;
-    transition: background-color 0.2s ease;
-  }
-  
-  /* Hover effect to change background color */
-  a:hover {
-    background-color: #f0f0f0;
-  }
-  
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* making links look like buttons */
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-right: 80px; /* Increase the margin between buttons */
+  transition: background-color 0.2s ease;
+}
+
+/* Hover effect */
+a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Align buttons with flex */
+nav {
+  display: flex;
+}
+
+/* different style for sign in button */
+.sign-in-button {
+  background-color: black;
+  color: white;
+  margin-left: auto; /* Move the "Sign in" button to the right */
+  margin-right: 10px; /* Increase the margin on the right for the Sign in button */
+  border-radius: 25px; /* make it round */
+
+}
