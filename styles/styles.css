@@ -250,3 +250,32 @@ h1{
   display: flex;
   flex-flow:column;
 }
+
+.section4text{
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  width: 60vw;
+}
+
+.section4text2{
+  margin: auto;
+  display:flex;
+  flex-flow: column;
+}
+
+.section4text3{
+  margin: auto;
+  display:flex;
+  flex-flow: column;
+}
+
+.section5{
+  height: 100%;
+  min-height: 80%;
+}
+
+.section5Header{
+  font-family: 'Open Sauce One', sans-serif;
+  font-size: 5vw;
+}
