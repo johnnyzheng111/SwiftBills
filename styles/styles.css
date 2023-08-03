@@ -5,6 +5,16 @@
 body {
   background-image: linear-gradient(to right, #00c4cc , #039AAA, #056F88, #084566, #0a1a44);
   margin: 0; /* Remove default body margin */
+  padding: 0;
+}
+
+.filler{
+  height:0;
+  margin-top: 60px;
+}
+
+html,body{
+  height: 100%;
 }
 
 nav {
@@ -12,6 +22,10 @@ nav {
   padding: 10px 0; /* Add padding only to the top and bottom */
   margin: 0;
   background-color: white;
+  position:fixed;
+  top:0;
+  width:100%;
+  height: 40px;
 }
 
 a {
@@ -62,7 +76,7 @@ h1{
   font-weight: bold;
   margin: 20px 0 0 20px;
   letter-spacing: 5px;
-  margin-left: 150px;
+  margin-left: 150vp;
   margin-top: 30px;
 }
 
@@ -70,6 +84,7 @@ h1{
   font-family: 'Open Sauce One', sans-serif;
   font-size: 60px;
   color: white;
+  margin-left: 5vw;
 }
 
 .claimingInsuranceImage img {
@@ -133,14 +148,105 @@ h1{
 
 /* new section under here */
 
-.whiteBackgroundChange{
+.whiteBackgroundChange {
   background-color: white;
+  padding: 40px; /* Add some padding to the white background section */
+  color: #333;
+  text-align: center;
+}
+.whiteBackgroundSection {
+  background-color: white;
+  padding: 40px; /* Add some padding to the white background section */
+  color: #333;
+  min-height: 80%; /* Set min-height to 100% to ensure it takes up full height */
+
+  
 }
 
+.section1{
+  margin-bottom: 8vw;
+}
+
+
 .logoImage {
-  width: 50px; /* Adjust the width as needed */
-  height: 50px; /* Adjust the height as needed */
+  width: 80px; /* Adjust the width as needed */
+  height: 80px; /* Adjust the height as needed */
   margin-right: 10px; /* Add spacing between the logo and the text */
 }
 
+.section2Header{
+  font-family: 'Open Sauce One', sans-serif;
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  margin-left: 9vw;
+  margin-top: 9vw;
 
+}
+
+.section2Text{
+  font-family: 'Open Sauce One', sans-serif;
+  font-size: 60px;
+  display: block;
+  margin-top: -10px; /* Adjust the margin-top to reduce the space between Claiming Insurance and SwiftBills */
+  margin-bottom: 0;
+  margin-bottom: 80px;
+  margin-left: 9vw;
+  margin-right: auto;
+
+}
+
+.section2Paragraph{
+  font-size: 18px;
+  margin-bottom: 10px; /* Adjust the margin to move the paragraphs down */
+  margin-left: 9vw;
+  text-align: left;
+  text-wrap: wrap;
+  line-height: 2em;
+
+}
+
+.doctorImage{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the left (original position) */
+  margin-top: 50px;
+  color: white;
+  padding-right: 10vw;
+}
+
+.section2Flexbox{
+  display: flex;
+  flex-flow:row;
+}
+
+.section3{
+  margin-top:5vw;
+}
+
+.section3paragraph{
+  font-size: 32px;
+  width:400px;
+  line-height: 1.5em
+}
+
+.billingDiagram{
+  aspect-ratio: 1468 / 720;
+  height:100%;
+  width: 900px;
+  margin-top: 5vw;
+}
+
+.section4{
+  font-family: 'Open Sauce One', sans-serif;
+  font-size: 60px;
+  margin-top: 9vw;
+}
+.section4Header{
+  margin:auto;
+}
+.section4flexbox{
+  display: flex;
+  flex-flow:column;
+}
