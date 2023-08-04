@@ -40,7 +40,8 @@ a {
   color: black;
   /* border: 1px solid black; */
   border-radius: 4px;
-  margin-right: 30px; /* Reduce the margin between buttons */
+  margin-right: 50px; /* Reduce the margin between buttons */
+  margin-left: 20px;
   transition: background-color 0.2s ease;
   font-family: 'Open Sauce One', sans-serif;
   font-weight: 500;
@@ -294,4 +295,32 @@ h1{
 .section5Header{
   font-family: 'Open Sauce One', sans-serif;
   font-size: 5vw;
+}
+
+.testimonialsContainer {
+  display: flex;
+  justify-content: center; /* Align the boxes horizontally in the center */
+  flex-wrap: wrap; /* Allow the boxes to wrap when there's not enough space */
+  margin-top: 20px;
+}
+
+.testimonialBox {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center; /* Align text in the center */
+}
+
+.testimonialText {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color:white;
+}
+
+.testimonialAuthor {
+  font-size: 14px;
+  font-style: italic;
+  color:#f0f0f0
 }
