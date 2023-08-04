@@ -43,6 +43,7 @@ a {
   margin-right: 30px; /* Reduce the margin between buttons */
   transition: background-color 0.2s ease;
   font-family: 'Open Sauce One', sans-serif;
+  font-weight: 500;
 }
 
 /* Hover effect */
@@ -72,12 +73,13 @@ h1{
 
 .swiftBillsText{
   font-family: 'Open Sauce One', sans-serif;
-  font-size: 36px;
+  font-size: 50px;
   font-weight: bold;
   margin: 20px 0 0 20px;
-  letter-spacing: 5px;
+  letter-spacing: 7px;
   margin-left: 150vp;
   margin-top: 30px;
+  display: inline;
 }
 
 .claimingInsuranceText{
@@ -87,8 +89,10 @@ h1{
   margin-left: 5vw;
 }
 
+
+
 .claimingInsuranceImage img {
-  width: 250px;
+  width: 300px;
   height: 500px;
 }
 
@@ -127,14 +131,15 @@ h1{
   display: inline-block; /* Move the "Try Now" button to the left */
   margin: 15px 20px; /* Add some margin */
   padding: 15px; /* Add padding to make the button circular */
-  font-size: 20px; /* Increase the button text size */
+  font-size: 25px; /* Increase the button text size */
   background-color: #00c4cc;
   color: black;
   border: none;
   border-radius: 50px; /* Make the button a circle */
   cursor: pointer;
   transition: background-color 0.2s ease;
-  width: 300px;
+  width: 400px;
+  height: 100px;
 }
 
 .tryNowButton:hover {
@@ -167,12 +172,20 @@ h1{
   margin-bottom: 8vw;
 }
 
+.section1>img {
+  margin-left: 50px;
+}
+
+.logopic-andtext {
+  display: inline-block;
+}
 
 .logoImage {
-  width: 80px; /* Adjust the width as needed */
-  height: 80px; /* Adjust the height as needed */
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
   margin-right: 10px; /* Add spacing between the logo and the text */
 }
+
 
 .section2Header{
   font-family: 'Open Sauce One', sans-serif;
@@ -198,14 +211,17 @@ h1{
 }
 
 .section2Paragraph{
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 10px; /* Adjust the margin to move the paragraphs down */
   margin-left: 9vw;
   text-align: left;
   text-wrap: wrap;
   line-height: 2em;
-
+  font-family: 'Open Sauce One', sans-serif;
+  padding-right: 300px;
 }
+
+
 
 .doctorImage{
   display: flex;
