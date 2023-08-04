@@ -108,6 +108,7 @@ nav {
   }
 
   .why-paragraph {
+    grid-area: 1/1;
     text-align: left;
     font-family: 'Open Sauce One', sans-serif;
     color: white;
@@ -118,6 +119,13 @@ nav {
     padding-top: 20px;
   }
 
-  .why-inline {
-    display: inline-block;
+  .why-image {
+    grid-area: 1/2;
+  }
+
+  .why-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 40px;
+    padding-right: 70px;
   }
