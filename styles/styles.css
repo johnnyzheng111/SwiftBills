@@ -74,10 +74,10 @@ h1{
 
 .swiftBillsText{
   font-family: 'Open Sauce One', sans-serif;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bold;
   margin: 20px 0 0 20px;
-  letter-spacing: 7px;
+  letter-spacing: 4px;
   margin-left: 150vp;
   margin-top: 30px;
   display: inline;
@@ -293,34 +293,39 @@ h1{
 }
 
 .section5Header{
+  margin-top: 80px;
   font-family: 'Open Sauce One', sans-serif;
   font-size: 5vw;
 }
 
 .testimonialsContainer {
   display: flex;
-  justify-content: center; /* Align the boxes horizontally in the center */
+  justify-content: space-evenly; /* Align the boxes horizontally in the center */
   flex-wrap: wrap; /* Allow the boxes to wrap when there's not enough space */
-  margin-top: 20px;
+  margin-top: 100px;
 }
 
 .testimonialBox {
   width: 300px;
   margin: 10px;
   padding: 20px;
+  height: 400px;
   border: 1px solid #ccc;
   border-radius: 8px;
   text-align: center; /* Align text in the center */
+  background-color: #00c4cc;
 }
 
 .testimonialText {
   font-size: 16px;
   margin-bottom: 10px;
   color:white;
+  font-family: 'Open Sauce One', sans-serif;
 }
 
 .testimonialAuthor {
   font-size: 14px;
   font-style: italic;
+  font-family: 'Open Sauce One', sans-serif;
   color:#f0f0f0
 }
